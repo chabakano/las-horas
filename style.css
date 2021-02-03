@@ -6,3 +6,7 @@ h1.centrado{
   text-align: center;
   color: brown;
 }
+
+hr.ja{
+    border-color: crimson; border-width: 3px;
+}
