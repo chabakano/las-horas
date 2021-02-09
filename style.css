@@ -10,3 +10,40 @@ h1.centrado{
 hr.ja{
     border-color: crimson; border-width: 3px;
 }
+
+div.carta{
+  color: black;
+  text-align: left;
+}
+div.carta img{
+  margin: auto;
+  display: inline;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+div.cafe{
+  color: black;
+  text-align: center;
+}
+div.cafe img{
+  margin: auto;
+  display: inline;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+div.contacto{
+  color: black;
+  text-align: right;
+}
+
+div.contacto img{
+  margin: auto;
+  display: inline;
+  width: 150px;
+  height: 100px;
+  position: relative;
+}
