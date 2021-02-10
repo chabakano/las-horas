@@ -2,3 +2,11 @@ body{
     background-image: url(/imagenes/cafeson.jpg) ;
     background-size: cover;
 }
+
+h1.centrado{
+    text-align: center;
+    color: sienna;
+}
+h4.uno{
+    color: maroon;
+}
