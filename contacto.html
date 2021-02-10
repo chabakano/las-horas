@@ -6,6 +6,73 @@
     <title>contacto</title>
 </head>
 <body>
+    <form>
+
+    <fieldset>
+
+        <legend class="uno"> Datos del cliente </legend><br>
+
+            <label for="nombre" class="uno">Nombre :</label>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre" id="nombre">
+
+            <label for="apellidos" class="uno">Apellidos :</label>
+            <input type="text" name="apellidos" placeholder="Introduce tus apellidos" id="apellidos"><br><br>
+
+            <input type="radio" name="sexo" id="hombre" value="hombre">
+            <label for="hombre" class="uno">hombre</label>
+
+            <input type="radio" name="sexo" id="mujer" value="mujer">
+            <label for="hombre" class="uno">mujer</label>
+
+            <input type="radio" name="sexo" id="Otro" value="Otro">
+            <label for="hombre" class="uno">Otro</label><br><br>
+    
+            <label for="correo" class="uno">Correo Electronico :</label><br><br>
+            <input type="email" name="correo" placeholder="Introduce tu correo electronico" id="correo" size="40"><br><br>
+
+            <label for="pass">contraseña</label><br><br>    
+            <input type="password" name="contraseña" placeholder="Introduce tu contraseña" id="pass" class="uno"><br><br>
+
+            <label for="cumple" class="uno">Fecha de nacimiento</label><br><br>
+            <input type="date" name="cumpleuno"  id="cumple"><br><br>
+
+            <label for="desc" class="uno">Añade una descripcion</label><br><br>
+            <textarea name="desc" id="desc" cols="60" rows="6"></textarea><br><br>
+
+        </fieldset>
+
+    
+        <fieldset>
+
+            <legend class="uno"> Su opinion </legend>
+
+            <label for="cafe" class="uno">Que café toma usted</label><br><br>
+            <select name="cafepreferido" id="cafe">
+
+                <option value="colombiano">colombiano</option>
+                <option value="puro">puro 100%</option>
+                <option value="molido">molido</option>
+                <option value="pibe">Mate</option>
+
+           </select>
+
+                <br><br>
+
+           <button>
+            <input type="submit" value="Enviar">
+            <img src="/imagenes/enviar.jpg" alt="enviar" height="30" width="30" style="vertical-align: middle">
+            
+           </button>
+
+           <button>
+            <input type="reset" value="Borrar">
+            <img src="/imagenes/borrar.png"  height="30" width="30" style="vertical-align: middle">
+           </button>
+
+        </fieldset>
+
+
+    </form>
     
 </body>
 </html>

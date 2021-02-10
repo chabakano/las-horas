@@ -2,3 +2,15 @@ body{
     background-image: url(/imagenes/oficina.png) ;
     background-size: cover;
 }
+
+label.uno{
+    color: brown;
+    text-decoration: underline gold;
+    font-weight: 750;
+}
+
+legend.uno{
+    color: red;
+    font-weight: 900;
+}
+
